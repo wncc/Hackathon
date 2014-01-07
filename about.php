@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+
             <section class="content">
         <article class="descriptor">
             <section class="whatis">
@@ -106,4 +107,4 @@
         </article>
 
             </section>
-<? php include 'footer.php' ?>
+<?php include 'footer.php' ?>
