@@ -1,0 +1,1006 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Shadows+Into+Light+Two);
+section.hero header *, body.index section.content section.col1 article h1, body.index section.content section.col2 article h1, body.oauth section.content article h1, body section.content form input[type="text"], body section.content form input[type="password"], body section.content form input[type="datetime-local"], body section.content form input[type="number"],
+body section.content form input[type="email"], body section.content form textarea, body section.content form select, body section.content table tbody td, body section.content table tbody th, body section.content table tr th .details, body section.content p, body section.content blockquote, body section.content ul, body section.content ol, body section.content article h3, body section.content article h4, footer p, footer nav, body.index section.content section.col1 article.quotes ul li .text, body.index section.content section.col2 article.quotes ul li .text, body.index section.content section.col1 article.quotes ul li .person .title, body.index section.content section.col2 article.quotes ul li .person .title, body.index section.content section.col1 article.description header p, body.index section.content section.col2 article.description header p {
+  font-family: "proxima-nova", sans-serif; }
+
+a.action, section.content form input[type="submit"], section.hero.attend .learnmore, section.hero.organize .learnmore, section.hero.sponsor .learnmore, body section.content ul.cta li a, body.index section.content section.col1 article.attend ul li, body.index section.content section.col2 article.attend ul li, body section.content table thead, body section.content form div.field label, body section.content table tr th[colspan], body section.content .error, body section.content article h1, body section.content article h2, section.notpublished, body > header, body.index section.content section.col1 article.attend ul li span.name, body.index section.content section.col2 article.attend ul li span.name, body.guide section.content nav h1, body.guide section.content nav ol li h2, body.evangelist section.content nav h1, body.evangelist section.content nav ol li h2, body.staff section.content nav h1, body.staff section.content nav ol li h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #404040; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased; }
+
+strong {
+  font-weight: bold; }
+
+small, sub, sup {
+  font-size: 0.55em; }
+
+sub {
+  vertical-align: sub; }
+
+sup {
+  vertical-align: super; }
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body section.content form input[type="text"], body section.content form input[type="password"], body section.content form input[type="datetime-local"], body section.content form input[type="number"],
+body section.content form input[type="email"], body section.content form textarea, body section.content form select {
+  outline: none;
+  border: 1px solid #999999;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0.5em;
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  background-color: transparent; }
+  body section.content form input[type="text"]:focus, body section.content form input[type="password"]:focus, body section.content form input[type="datetime-local"]:focus, body section.content form input[type="number"]:focus,
+  body section.content form input[type="email"]:focus, body section.content form textarea:focus, body section.content form select:focus {
+    outline: none;
+    border: 1px solid #d02614; }
+
+a.action, section.content form input[type="submit"], section.hero.attend .learnmore, section.hero.organize .learnmore, section.hero.sponsor .learnmore, body section.content form input[type="submit"], body section.content ul.cta li a, body.index section.content section.col1 article.attend ul li, body.index section.content section.col2 article.attend ul li {
+  color: white;
+  background-color: #d02614;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 0;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  -moz-box-shadow: 0 4px 0 #73150b;
+  -webkit-box-shadow: 0 4px 0 #73150b;
+  box-shadow: 0 4px 0 #73150b; }
+
+body.staff section.content nav a.action, body.staff section.content nav section.hero.attend .learnmore, section.hero.attend body.staff section.content nav .learnmore, body.staff section.content nav section.hero.organize .learnmore, section.hero.organize body.staff section.content nav .learnmore, body.staff section.content nav section.hero.sponsor .learnmore, section.hero.sponsor body.staff section.content nav .learnmore, body.staff section.content nav form input[type="submit"], body.staff section.content form nav input[type="submit"], body.staff section.content nav ul.cta li a, body.staff section.content ul.cta li nav a, body.staff body.index section.content nav section.col1 article.attend ul li, body.index body.staff section.content nav section.col1 article.attend ul li, body.staff body.index section.content section.col1 article.attend ul nav li, body.index body.staff section.content section.col1 article.attend ul nav li, body.staff body.index section.content nav section.col2 article.attend ul li, body.index body.staff section.content nav section.col2 article.attend ul li, body.staff body.index section.content section.col2 article.attend ul nav li, body.index body.staff section.content section.col2 article.attend ul nav li, body.index section.content section.col2 a.action, body.index section.content section.col1 article.quotes ul li a.action, body.guide section.content nav a.action, body.evangelist section.content nav a.action, body.sponsor section.content article.sell a.action, body.index section.content section.col2 section.hero.attend .learnmore, section.hero.attend body.index section.content section.col2 .learnmore, body.index section.content section.col1 article.quotes ul li section.hero.attend .learnmore, section.hero.attend body.index section.content section.col1 article.quotes ul li .learnmore, body.guide section.content nav section.hero.attend .learnmore, section.hero.attend body.guide section.content nav .learnmore, body.evangelist section.content nav section.hero.attend .learnmore, section.hero.attend body.evangelist section.content nav .learnmore, body.sponsor section.content article.sell section.hero.attend .learnmore, section.hero.attend body.sponsor section.content article.sell .learnmore, body.index section.content section.col2 section.hero.organize .learnmore, section.hero.organize body.index section.content section.col2 .learnmore, body.index section.content section.col1 article.quotes ul li section.hero.organize .learnmore, section.hero.organize body.index section.content section.col1 article.quotes ul li .learnmore, body.guide section.content nav section.hero.organize .learnmore, section.hero.organize body.guide section.content nav .learnmore, body.evangelist section.content nav section.hero.organize .learnmore, section.hero.organize body.evangelist section.content nav .learnmore, body.sponsor section.content article.sell section.hero.organize .learnmore, section.hero.organize body.sponsor section.content article.sell .learnmore, body.index section.content section.col2 section.hero.sponsor .learnmore, section.hero.sponsor body.index section.content section.col2 .learnmore, body.index section.content section.col1 article.quotes ul li section.hero.sponsor .learnmore, section.hero.sponsor body.index section.content section.col1 article.quotes ul li .learnmore, body.guide section.content nav section.hero.sponsor .learnmore, section.hero.sponsor body.guide section.content nav .learnmore, body.evangelist section.content nav section.hero.sponsor .learnmore, section.hero.sponsor body.evangelist section.content nav .learnmore, body.sponsor section.content article.sell section.hero.sponsor .learnmore, section.hero.sponsor body.sponsor section.content article.sell .learnmore, body.index section.content section.col2 form input[type="submit"], body.index section.content form section.col2 input[type="submit"], body.index section.content section.col1 article.quotes ul li form input[type="submit"], body.index section.content form section.col1 article.quotes ul li input[type="submit"], body.guide section.content nav form input[type="submit"], body.guide section.content form nav input[type="submit"], body.evangelist section.content nav form input[type="submit"], body.evangelist section.content form nav input[type="submit"], body.sponsor section.content article.sell form input[type="submit"], body.sponsor section.content form article.sell input[type="submit"], body.index section.content section.col2 ul.cta li a, body.index section.content ul.cta li section.col2 a, body.index section.content section.col1 article.quotes ul.cta li a, body.guide section.content nav ul.cta li a, body.guide section.content ul.cta li nav a, body.evangelist section.content nav ul.cta li a, body.evangelist section.content ul.cta li nav a, body.sponsor section.content article.sell ul.cta li a, body.sponsor section.content ul.cta li article.sell a, body.index section.content section.col1 article.attend ul section.col2 li, body.index section.content section.col1 article.quotes article.attend ul li li, body.index section.content section.col1 article.attend article.quotes ul li li, body.guide body.index section.content nav section.col1 article.attend ul li, body.index body.guide section.content nav section.col1 article.attend ul li, body.guide body.index section.content section.col1 article.attend ul nav li, body.index body.guide section.content section.col1 article.attend ul nav li, body.evangelist body.index section.content nav section.col1 article.attend ul li, body.index body.evangelist section.content nav section.col1 article.attend ul li, body.evangelist body.index section.content section.col1 article.attend ul nav li, body.index body.evangelist section.content section.col1 article.attend ul nav li, body.sponsor body.index section.content article.sell section.col1 article.attend ul li, body.index body.sponsor section.content article.sell section.col1 article.attend ul li, body.sponsor body.index section.content section.col1 article.attend ul article.sell li, body.index body.sponsor section.content section.col1 article.attend ul article.sell li, body.index section.content section.col2 article.attend ul li, body.oauth section.content article.permissions a.action, body.host section.content article.requirements a.action, body.host section.content article.sell a.action, body.oauth section.content article.permissions section.hero.attend .learnmore, section.hero.attend body.oauth section.content article.permissions .learnmore, body.host section.content article.requirements section.hero.attend .learnmore, section.hero.attend body.host section.content article.requirements .learnmore, body.host section.content article.sell section.hero.attend .learnmore, section.hero.attend body.host section.content article.sell .learnmore, body.oauth section.content article.permissions section.hero.organize .learnmore, section.hero.organize body.oauth section.content article.permissions .learnmore, body.host section.content article.requirements section.hero.organize .learnmore, section.hero.organize body.host section.content article.requirements .learnmore, body.host section.content article.sell section.hero.organize .learnmore, section.hero.organize body.host section.content article.sell .learnmore, body.oauth section.content article.permissions section.hero.sponsor .learnmore, section.hero.sponsor body.oauth section.content article.permissions .learnmore, body.host section.content article.requirements section.hero.sponsor .learnmore, section.hero.sponsor body.host section.content article.requirements .learnmore, body.host section.content article.sell section.hero.sponsor .learnmore, section.hero.sponsor body.host section.content article.sell .learnmore, body.oauth section.content article.permissions form input[type="submit"], body.oauth section.content form article.permissions input[type="submit"], body.host section.content article.requirements form input[type="submit"], body.host section.content form article.requirements input[type="submit"], body.host section.content article.sell form input[type="submit"], body.host section.content form article.sell input[type="submit"], body.oauth section.content article.permissions ul.cta li a, body.oauth section.content ul.cta li article.permissions a, body.host section.content article.requirements ul.cta li a, body.host section.content ul.cta li article.requirements a, body.host section.content article.sell ul.cta li a, body.host section.content ul.cta li article.sell a, body.oauth body.index section.content article.permissions section.col1 article.attend ul li, body.index body.oauth section.content article.permissions section.col1 article.attend ul li, body.oauth body.index section.content section.col1 article.attend ul article.permissions li, body.index body.oauth section.content section.col1 article.attend ul article.permissions li, body.host body.index section.content article.requirements section.col1 article.attend ul li, body.index body.host section.content article.requirements section.col1 article.attend ul li, body.host body.index section.content section.col1 article.attend ul article.requirements li, body.index body.host section.content section.col1 article.attend ul article.requirements li, body.host body.index section.content article.sell section.col1 article.attend ul li, body.index body.host section.content article.sell section.col1 article.attend ul li, body.host body.index section.content section.col1 article.attend ul article.sell li, body.index body.host section.content section.col1 article.attend ul article.sell li, body.oauth body.index section.content article.permissions section.col2 article.attend ul li, body.index body.oauth section.content article.permissions section.col2 article.attend ul li, body.oauth body.index section.content section.col2 article.attend ul article.permissions li, body.index body.oauth section.content section.col2 article.attend ul article.permissions li, body.host body.index section.content article.requirements section.col2 article.attend ul li, body.index body.host section.content article.requirements section.col2 article.attend ul li, body.host body.index section.content section.col2 article.attend ul article.requirements li, body.index body.host section.content section.col2 article.attend ul article.requirements li, body.host body.index section.content article.sell section.col2 article.attend ul li, body.index body.host section.content article.sell section.col2 article.attend ul li, body.host body.index section.content section.col2 article.attend ul article.sell li, body.index body.host section.content section.col2 article.attend ul article.sell li {
+  width: 100%; }
+
+body section.content table {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-collapse: collapse;
+  border-spacing: 0; }
+  body section.content table thead {
+    font-size: 0.73302em; }
+    body section.content table thead tr td, body section.content table thead tr th {
+      border-top: none;
+      padding: 0.5em 1em 0.5em 1em; }
+  body section.content table tbody td, body section.content table tbody th {
+    padding: 0.5em 1em 0.5em 0;
+    vertical-align: top;
+    border-top: 1px solid #999999;
+    text-align: left; }
+  body section.content table tbody th {
+    font-weight: bold; }
+
+section.hero header, body section.content, body > header, footer {
+  width: 980px;
+  margin: 0 auto; }
+
+body.staff section.content nav, body.index section.content section.col2, body.index section.content section.col1 article.quotes ul li, body.index section.content section.col2 article.quotes ul li, body.guide section.content nav, body.evangelist section.content nav, body.index section.content section.col1, body section.content article {
+  display: block;
+  float: left;
+  margin: 12px; }
+
+body.staff section.content nav {
+  width: 221px; }
+
+body.index section.content section.col1.col2, body.index section.content section.col2, body.index section.content section.col1 article.quotes ul li, body.index section.content section.col2 article.quotes ul li, body.guide section.content nav, body.evangelist section.content nav, body.sponsor section.content article.sell {
+  width: 302.66667px; }
+
+body.oauth section.content article.permissions, body.host section.content article.requirements, body.host section.content article.sell {
+  width: 384.33333px; }
+
+body.oauth section.content article.approve, body.host section.content article.intro, body.host section.content article.faq {
+  width: 547.66667px; }
+
+body.index section.content section.col1, body.index section.content section.col2.col1, body.guide section.content article, body.evangelist section.content article, body.sponsor section.content article.intro {
+  width: 629.33333px; }
+
+body.staff section.content article {
+  width: 711px; }
+
+body section.content article {
+  width: 956px; }
+
+section.hero header::after, body section.content::after, body > header::after, footer::after, a.action::after, section.content form input[type="submit"]::after, section.hero::after, footer nav ul::after, body.index section.content section.col1 article.quotes ul::after, body.index section.content section.col2 article.quotes ul::after, body.index section.content section.col1 article.quotes ul li .person::after, body.index section.content section.col2 article.quotes ul li .person::after, body.index section.content section.col1 article.sponsors ul::after, body.index section.content section.col2 article.sponsors ul::after, body.sponsor section.content article.sell ul::after, body.staff section.content article.eventdirectory > ul::after, section.hero header:after, body section.content:after, body > header:after, footer:after, a.action:after, section.content form input[type="submit"]:after, section.hero:after, footer nav ul:after, body.index section.content section.col1 article.quotes ul:after, body.index section.content section.col2 article.quotes ul:after, body.index section.content section.col1 article.quotes ul li .person:after, body.index section.content section.col2 article.quotes ul li .person:after, body.index section.content section.col1 article.sponsors ul:after, body.index section.content section.col2 article.sponsors ul:after, body.sponsor section.content article.sell ul:after, body.staff section.content article.eventdirectory > ul:after {
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both; }
+
+section.hero header::after, body section.content::after, body > header::after, footer::after, a.action::after, section.content form input[type="submit"]::after, section.hero::after, footer nav ul::after, body.index section.content section.col1 article.quotes ul::after, body.index section.content section.col2 article.quotes ul::after, body.index section.content section.col1 article.quotes ul li .person::after, body.index section.content section.col2 article.quotes ul li .person::after, body.index section.content section.col1 article.sponsors ul::after, body.index section.content section.col2 article.sponsors ul::after, body.sponsor section.content article.sell ul::after, body.staff section.content article.eventdirectory > ul::after {
+  content: ""; }
+section.hero header:after, body section.content:after, body > header:after, footer:after, a.action:after, section.content form input[type="submit"]:after, section.hero:after, footer nav ul:after, body.index section.content section.col1 article.quotes ul:after, body.index section.content section.col2 article.quotes ul:after, body.index section.content section.col1 article.quotes ul li .person:after, body.index section.content section.col2 article.quotes ul li .person:after, body.index section.content section.col1 article.sponsors ul:after, body.index section.content section.col2 article.sponsors ul:after, body.sponsor section.content article.sell ul:after, body.staff section.content article.eventdirectory > ul:after {
+  content: ""; }
+
+::selection {
+  background: #d02614;
+  color: #fff; }
+
+::-moz-selection {
+  background: #d02614;
+  color: #fff; }
+
+body {
+  background: #dfdedd url(../img/global/codedaybg.png);
+  color: #404040; }
+
+a.facebook-share-button {
+  background-color: #5b74a8;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #29447e #29447e #1a356e;
+  background-image: url(../img/global/fb-share.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: inline-block;
+  color: white !important;
+  padding: 3px 16px 2px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
+  a.facebook-share-button:active, a.facebook-share-button:hover {
+    border-bottom-color: #1a356e !important; }
+
+iframe.twitter-share-button {
+  position: relative;
+  top: 9px; }
+
+a.action, section.content form input[type="submit"] {
+  float: right;
+  color: white !important;
+  background-color: #d02614; }
+
+section.hero {
+  height: 22em;
+  max-height: 400px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  position: relative;
+  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  margin: -3.73302em 0 1em 0; }
+  section.hero header {
+    padding: 6em 0 2em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -490px;
+    background-size: cover; }
+    section.hero header * {
+      color: #fff;
+      display: inline-block;
+      float: left; }
+    section.hero header h1 {
+      background-color: rgba(208, 38, 20, 0.9);
+      font-size: 1.86111em;
+      padding: 0.59079em;
+      margin-bottom: 0.2954em; }
+    section.hero header h2 {
+      clear: both;
+      height: 1.88275em;
+      padding: 0 0.94138em;
+      font-size: 1.168em;
+      text-align: left;
+      color: white;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.9), 0px 0px 4px rgba(0, 0, 0, 0.9); }
+  section.hero.attend {
+    background-image: url(../img/global/attend_hero.jpg); }
+  section.hero.organize {
+    background-image: url(../img/global/organize_hero.jpg);
+    height: 16em; }
+  section.hero.sponsor {
+    background-image: url(../img/global/sponsor_hero.jpg);
+    height: 16em; }
+
+section.hero.attend .learnmore, section.hero.organize .learnmore, section.hero.sponsor .learnmore {
+  font-size: 1.168em;
+  padding: 0.94138em;
+  margin-top: 0.23534em;
+  margin-left: 0.47069em;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.8); }
+  section.hero.attend .learnmore:after, section.hero.organize .learnmore:after, section.hero.sponsor .learnmore:after {
+    padding-left: 0.25em;
+    content: "\021E2"; }
+section.hero.attend header, section.hero.organize header, section.hero.sponsor header {
+  text-align: center; }
+  section.hero.attend header > *, section.hero.organize header > *, section.hero.sponsor header > * {
+    float: none; }
+
+body section.content form div.field {
+  margin-bottom: 1.5em;
+  /* border radius for radio*/
+  /* border radius for checkbox */
+  /* active state */
+  /* radio checked */
+  /* checkbox checked */ }
+  body section.content form div.field label {
+    float: left;
+    width: 150px;
+    padding-top: 0.8em; }
+  body section.content form div.field input, body section.content form div.field textarea, body section.content form div.field select {
+    float: left;
+    width: 600px; }
+  body section.content form div.field input[type="radio"],
+  body section.content form div.field input[type="checkbox"] {
+    height: 2.75em;
+    width: 2.75em;
+    vertical-align: middle;
+    margin: 0em 0.4em 0.4em 0;
+    border: 1px solid #999999;
+    -webkit-appearance: none; }
+  body section.content form div.field input[type="radio"] {
+    -webkit-border-radius: 100%;
+    border-radius: 100%; }
+  body section.content form div.field input[type="checkbox"] {
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+  body section.content form div.field input[type="radio"]:active:not(:disabled),
+  body section.content form div.field input[type="checkbox"]:active:not(:disabled),
+  body section.content form div.field input[type="radio"]:focus,
+  body section.content form div.field input[type="checkbox"]:focus {
+    outline: none;
+    border-color: #d02614; }
+  body section.content form div.field input[type="radio"]:checked:before {
+    display: block;
+    height: 0.3em;
+    width: 0.3em;
+    position: relative;
+    left: 0.4em;
+    top: 0.4em;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 100%;
+    content: ''; }
+  body section.content form div.field input[type="checkbox"]:checked:before {
+    color: black;
+    content: '\2713';
+    -webkit-margin-start: 0;
+    padding: 0 0 0 0.6em;
+    -webkit-margin-start: 0;
+    top: 0.25em;
+    position: relative;
+    font-size: 1.25em; }
+  body section.content form div.field textarea {
+    height: 5em; }
+  body section.content form div.field .help, body section.content form div.field img {
+    margin-left: 150px;
+    display: block;
+    clear: both;
+    font-size: 0.75em; }
+  body section.content form div.field:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both; }
+body section.content table tr th {
+  font-weight: normal; }
+  body section.content table tr th[colspan] {
+    font-size: 0.80597em;
+    padding-top: 4em;
+    border-top: none; }
+  body section.content table tr th .details {
+    font-size: 0.9em;
+    display: block;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    margin-top: 1em; }
+body section.content table tr:first-child th[colspan] {
+  padding-top: 1em; }
+body section.content .error {
+  width: 100%;
+  text-align: center;
+  color: #d02614;
+  padding-bottom: 1em; }
+body section.content hr {
+  display: block;
+  width: 50%;
+  height: 2px;
+  margin: 1.46603em auto;
+  background: #404040;
+  border: 0; }
+body section.content ul.cta {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center; }
+  body section.content ul.cta li {
+    display: inline-block; }
+    body section.content ul.cta li a {
+      background-color: #d02614;
+      display: inline-block;
+      margin: 0.25em 0; }
+body section.content table {
+  width: 100%; }
+body section.content a, body section.content .gc-cs-link {
+  color: #d02614;
+  text-decoration: none; }
+  body section.content a:hover, body section.content .gc-cs-link:hover {
+    border-bottom: 1px solid #d02614; }
+  body section.content a:active, body section.content .gc-cs-link:active {
+    background-color: #d02614;
+    color: #fff;
+    border-bottom-color: transparent; }
+body section.content p, body section.content blockquote {
+  font-size: 1em;
+  line-height: 1.28425em;
+  margin-bottom: 1em; }
+  body section.content p em, body section.content blockquote em {
+    font-variant: normal;
+    background-color: #eee; }
+body section.content blockquote {
+  font-style: italic;
+  margin-left: 2em;
+  padding-left: 1em;
+  border-left: 0.5em solid #404040; }
+body section.content img {
+  max-width: 100%;
+  height: auto; }
+body section.content ul, body section.content ol {
+  margin-bottom: 1em; }
+  body section.content ul li, body section.content ol li {
+    font-size: 1em;
+    line-height: 1.28425em;
+    margin-bottom: 0.14384em; }
+body section.content ol li {
+  list-style: decimal; }
+body section.content ul li {
+  list-style: disc; }
+body section.content ul ul, body section.content ol ol, body section.content ul ol, body section.content ol ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 0.14384em; }
+body section.content article {
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 15px;
+  padding-top: 2.5em;
+  padding-bottom: 2em; }
+  body section.content article h1 {
+    font-size: 1.28425em;
+    text-align: center;
+    padding-top: 3em; }
+    body section.content article h1:after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 2px;
+      margin: 1.46603em auto;
+      background: #404040; }
+  body section.content article > h1:first-child, body section.content article > header:first-child h1:first-child, body section.content article > p:first-child h1:first-child {
+    padding-top: 0; }
+  body section.content article > img:first-child, body section.content article > p:first-child > img:first-child {
+    margin-top: -1.5em;
+    margin-bottom: -3.5em; }
+  body section.content article h2 {
+    text-align: center;
+    margin: 2.5em auto 1em auto;
+    color: #404040;
+    font-size: 1em;
+    line-height: 1.28425em; }
+  body section.content article h3 {
+    font-size: 1.09953em;
+    margin-top: 1.168em;
+    margin-bottom: 0.73302em;
+    font-weight: bold;
+    text-align: center; }
+  body section.content article h4 {
+    font-weight: bold; }
+body section.content article {
+  padding-left: 6em;
+  padding-right: 6em; }
+  body section.content article h2 {
+    margin: 4em auto 2em auto;
+    width: 70%; }
+body.staff section.content article, body.guide section.content article, body.evangelist section.content article, body.sponsor section.content article.intro, body.oauth section.content article.approve, body.host section.content article.intro, body.host section.content article.faq, body.oauth section.content article.permissions, body.host section.content article.requirements, body.host section.content article.sell, body.sponsor section.content article.sell {
+  padding-left: 1em;
+  padding-right: 1em; }
+  body.staff section.content article h2, body.guide section.content article h2, body.evangelist section.content article h2, body.sponsor section.content article.intro h2, body.oauth section.content article.approve h2, body.host section.content article.intro h2, body.host section.content article.faq h2, body.oauth section.content article.permissions h2, body.host section.content article.requirements h2, body.host section.content article.sell h2, body.sponsor section.content article.sell h2 {
+    margin: 4em auto 2em auto;
+    width: 100%; }
+  body.staff section.content article ul, body.staff section.content article ol, body.guide section.content article ul, body.evangelist section.content article ul, body.sponsor section.content article.intro ul, body.guide section.content article ol, body.evangelist section.content article ol, body.sponsor section.content article.intro ol, body.oauth section.content article.approve ul, body.host section.content article.intro ul, body.host section.content article.faq ul, body.oauth section.content article.approve ol, body.host section.content article.intro ol, body.host section.content article.faq ol, body.oauth section.content article.permissions ul, body.host section.content article.requirements ul, body.host section.content article.sell ul, body.oauth section.content article.permissions ol, body.host section.content article.requirements ol, body.host section.content article.sell ol, body.sponsor section.content article.sell ul, body.sponsor section.content article.sell ol {
+    padding: 0 2em; }
+
+section.notpublished {
+  color: white;
+  background-color: #d02614;
+  text-align: center;
+  padding: 0.65em 0;
+  font-size: 0.73302em; }
+
+body > header {
+  z-index: 10;
+  position: relative; }
+  body > header h1 a {
+    float: left;
+    background-image: url(../img/global/codeday-logo.png);
+    width: 131px;
+    height: 3.73302em;
+    text-indent: -9999px;
+    background-position-y: 50%;
+    background-repeat: no-repeat; }
+  body > header nav {
+    padding: 1.5em 0; }
+    body > header nav ul {
+      padding: 0;
+      float: right; }
+      body > header nav ul li {
+        display: inline-block; }
+        body > header nav ul li a {
+          color: white;
+          background: transparent;
+          margin-left: 3em;
+          font-weight: 700;
+          font-size: 0.73302em; }
+        body > header nav ul li.active a, body > header nav ul li a:active {
+          border-bottom: 1px solid #d02614; }
+        body > header nav ul li a:hover {
+          border-bottom: 1px solid #d02614; }
+
+footer {
+  font-size: 0.80597em;
+  padding: 2em 0; }
+  footer p {
+    float: left;
+    color: #999999; }
+  footer a {
+    color: #404040; }
+  footer nav {
+    float: right; }
+    footer nav ul li {
+      list-style-type: none;
+      float: left;
+      padding-left: 1em; }
+      footer nav ul li a {
+        color: #999999; }
+
+body.index section.content section.col1, body.index section.content section.col2 {
+  float: left; }
+  body.index section.content section.col1 article.quotes, body.index section.content section.col2 article.quotes {
+    padding: 0;
+    background-color: transparent;
+    margin-top: 0; }
+    body.index section.content section.col1 article.quotes ul, body.index section.content section.col2 article.quotes ul {
+      margin: 0;
+      padding: 0; }
+      body.index section.content section.col1 article.quotes ul li, body.index section.content section.col2 article.quotes ul li {
+        list-style-type: none;
+        float: left;
+        width: 289.66667px;
+        margin-top: 0; }
+        body.index section.content section.col1 article.quotes ul li .text, body.index section.content section.col2 article.quotes ul li .text {
+          position: relative;
+          margin: 1em 0 3em;
+          border-bottom: 1px solid #333;
+          color: #333;
+          width: 268px; }
+          body.index section.content section.col1 article.quotes ul li .text:before, body.index section.content section.col2 article.quotes ul li .text:before {
+            content: "";
+            position: absolute;
+            bottom: -14px;
+            left: 26px;
+            border-width: 14px 14px 0;
+            border-style: solid;
+            border-color: #333 transparent;
+            display: block;
+            width: 0; }
+          body.index section.content section.col1 article.quotes ul li .text blockquote, body.index section.content section.col2 article.quotes ul li .text blockquote {
+            color: #333;
+            font-size: 14px;
+            line-height: 25px;
+            padding: 2px;
+            border-left: none;
+            margin-top: -10px; }
+            body.index section.content section.col1 article.quotes ul li .text blockquote:before, body.index section.content section.col2 article.quotes ul li .text blockquote:before {
+              color: #666;
+              font-style: italic;
+              content: "\201c";
+              font-size: 30px;
+              margin-left: -16px;
+              font-family: Georgia, serif;
+              position: relative;
+              top: 5px;
+              left: 2px; }
+            body.index section.content section.col1 article.quotes ul li .text blockquote:after, body.index section.content section.col2 article.quotes ul li .text blockquote:after {
+              color: #666;
+              font-style: italic;
+              content: "\201d";
+              font-size: 30px;
+              font-family: Georgia, serif;
+              margin-left: -2px;
+              line-height: 0px;
+              position: relative;
+              top: 7px; }
+          body.index section.content section.col1 article.quotes ul li .text:after, body.index section.content section.col2 article.quotes ul li .text:after {
+            content: "";
+            position: absolute;
+            bottom: -13px;
+            left: 27px;
+            border-width: 13px 13px 0;
+            border-style: solid;
+            border-color: #dfdedd transparent;
+            display: block;
+            width: 0; }
+        body.index section.content section.col1 article.quotes ul li .person img, body.index section.content section.col2 article.quotes ul li .person img {
+          width: 50px;
+          height: 50px;
+          margin-top: -9px;
+          margin-left: 18px;
+          margin-right: 10px;
+          float: left; }
+        body.index section.content section.col1 article.quotes ul li .person .name, body.index section.content section.col2 article.quotes ul li .person .name {
+          display: block;
+          font-family: 'Shadows Into Light Two', cursive;
+          font-size: 25px;
+          margin-top: -10px;
+          color: #404040; }
+  body.index section.content section.col1 article.description, body.index section.content section.col2 article.description {
+    padding-top: 15px; }
+    body.index section.content section.col1 article.description header:before, body.index section.content section.col2 article.description header:before {
+      content: "";
+      display: block;
+      height: 7em;
+      margin: 0 0 1em 0;
+      background-image: url(../img/global/attend.jpg);
+      background-size: cover; }
+    body.index section.content section.col1 article.description header p, body.index section.content section.col2 article.description header p {
+      width: 90%;
+      margin: 0 auto;
+      font-size: 1.168em;
+      line-height: 1.28425em;
+      text-align: center;
+      color: #404040; }
+    body.index section.content section.col1 article.description .attendcta, body.index section.content section.col2 article.description .attendcta {
+      padding-top: 1em;
+      text-align: center;
+      display: block;
+      width: 100%; }
+      body.index section.content section.col1 article.description .attendcta p, body.index section.content section.col2 article.description .attendcta p {
+        display: inline-block;
+        font-size: 1.168em;
+        line-height: 1.28425em;
+        color: #d02614; }
+        body.index section.content section.col1 article.description .attendcta p:after, body.index section.content section.col2 article.description .attendcta p:after {
+          content: "";
+          display: block;
+          background-image: url(../img/arrows.png);
+          background-position: -330px 1px;
+          width: 120px;
+          height: 47px;
+          position: relative;
+          left: 10em; }
+  body.index section.content section.col1 article, body.index section.content section.col2 article {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; }
+    body.index section.content section.col1 article h1, body.index section.content section.col2 article h1 {
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 1.86111em;
+      padding-bottom: 0.5em;
+      padding-top: 0;
+      margin-top: 0; }
+      body.index section.content section.col1 article h1:after, body.index section.content section.col2 article h1:after {
+        display: none; }
+    body.index section.content section.col1 article.sponsors, body.index section.content section.col2 article.sponsors {
+      background: none;
+      text-align: center; }
+      body.index section.content section.col1 article.sponsors ul, body.index section.content section.col2 article.sponsors ul {
+        padding: 0;
+        margin: 0;
+        text-align: center; }
+        body.index section.content section.col1 article.sponsors ul li, body.index section.content section.col2 article.sponsors ul li {
+          list-style-type: none;
+          height: auto;
+          display: table;
+          vertical-align: middle;
+          float: left;
+          padding: 0 1em;
+          margin: 0;
+          width: 100%; }
+          body.index section.content section.col1 article.sponsors ul li a, body.index section.content section.col2 article.sponsors ul li a {
+            display: table-cell;
+            vertical-align: middle; }
+            body.index section.content section.col1 article.sponsors ul li a img, body.index section.content section.col2 article.sponsors ul li a img {
+              width: 180px; }
+            body.index section.content section.col1 article.sponsors ul li a:hover, body.index section.content section.col1 article.sponsors ul li a:active, body.index section.content section.col2 article.sponsors ul li a:hover, body.index section.content section.col2 article.sponsors ul li a:active {
+              text-decoration: none;
+              border: 0; }
+    body.index section.content section.col1 article.attend, body.index section.content section.col2 article.attend {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      min-height: 352px; }
+      body.index section.content section.col1 article.attend h2, body.index section.content section.col2 article.attend h2 {
+        margin-top: 1.5em;
+        margin-bottom: 1em; }
+      body.index section.content section.col1 article.attend p, body.index section.content section.col2 article.attend p {
+        text-align: center; }
+      body.index section.content section.col1 article.attend ul, body.index section.content section.col2 article.attend ul {
+        padding: 0;
+        margin-bottom: 0; }
+        body.index section.content section.col1 article.attend ul li, body.index section.content section.col2 article.attend ul li {
+          list-style-type: none;
+          display: block;
+          padding: 0.85616em 0;
+          margin-bottom: 0.5em; }
+          body.index section.content section.col1 article.attend ul li:last-child, body.index section.content section.col2 article.attend ul li:last-child {
+            margin-bottom: 0; }
+          body.index section.content section.col1 article.attend ul li.notify, body.index section.content section.col2 article.attend ul li.notify {
+            color: white;
+            background: #404040;
+            -moz-box-shadow: 0 4px 0 black;
+            -webkit-box-shadow: 0 4px 0 black;
+            box-shadow: 0 4px 0 black; }
+            body.index section.content section.col1 article.attend ul li.notify span.name, body.index section.content section.col2 article.attend ul li.notify span.name {
+              color: white; }
+            body.index section.content section.col1 article.attend ul li.notify a, body.index section.content section.col2 article.attend ul li.notify a {
+              color: white; }
+          body.index section.content section.col1 article.attend ul li span, body.index section.content section.col2 article.attend ul li span {
+            display: block;
+            width: 100%;
+            text-align: center; }
+            body.index section.content section.col1 article.attend ul li span sup, body.index section.content section.col2 article.attend ul li span sup {
+              margin-left: -0.75em; }
+            body.index section.content section.col1 article.attend ul li span.name, body.index section.content section.col2 article.attend ul li span.name {
+              font-size: 0.85616em; }
+            body.index section.content section.col1 article.attend ul li span.cta, body.index section.content section.col2 article.attend ul li span.cta {
+              font-size: 0.62758em; }
+              body.index section.content section.col1 article.attend ul li span.cta:after, body.index section.content section.col2 article.attend ul li span.cta:after {
+                content: "\021E2"; }
+
+body.learn section.content article h1 {
+  padding-top: 0; }
+body.learn section.content article ul li {
+  list-style-type: none;
+  width: 49%;
+  float: left;
+  padding: 1%;
+  text-align: center;
+  margin-bottom: 30pt; }
+  body.learn section.content article ul li h2.title {
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+
+body.guide section.content nav {
+  padding-bottom: 2em;
+  background-color: white; }
+  body.guide section.content nav h1 {
+    padding-top: 2em;
+    font-size: 1.168em;
+    text-align: center; }
+    body.guide section.content nav h1:after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 2px;
+      margin: 1.46603em auto;
+      background: #404040; }
+  body.guide section.content nav ol {
+    padding: 0;
+    margin: 1em 2em; }
+    body.guide section.content nav ol li {
+      list-style-type: none;
+      margin-bottom: 0; }
+      body.guide section.content nav ol li a, body.guide section.content nav ol li h2 {
+        padding: 0.25em; }
+      body.guide section.content nav ol li a {
+        display: block; }
+        body.guide section.content nav ol li a:hover, body.guide section.content nav ol li a:active {
+          border-bottom: none;
+          color: black;
+          background-color: #dfdedd; }
+      body.guide section.content nav ol li h2 {
+        font-size: 0.85616em;
+        padding-top: 2em; }
+      body.guide section.content nav ol li.active a {
+        background-color: #d02614;
+        color: white; }
+body.guide section.content .organizer-search {
+  text-align: center;
+  margin-top: 3em; }
+  body.guide section.content .organizer-search p {
+    margin-bottom: 0; }
+
+body.evangelist section.content nav {
+  padding-bottom: 2em;
+  background-color: white; }
+  body.evangelist section.content nav h1 {
+    padding-top: 2em;
+    font-size: 1.168em;
+    text-align: center; }
+    body.evangelist section.content nav h1:after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 2px;
+      margin: 1.46603em auto;
+      background: #404040; }
+  body.evangelist section.content nav ol {
+    padding: 0;
+    margin: 1em 2em; }
+    body.evangelist section.content nav ol li {
+      list-style-type: none;
+      margin-bottom: 0; }
+      body.evangelist section.content nav ol li a, body.evangelist section.content nav ol li h2 {
+        padding: 0.25em; }
+      body.evangelist section.content nav ol li a {
+        display: block; }
+        body.evangelist section.content nav ol li a:hover, body.evangelist section.content nav ol li a:active {
+          border-bottom: none;
+          color: black;
+          background-color: #dfdedd; }
+      body.evangelist section.content nav ol li h2 {
+        font-size: 0.85616em;
+        padding-top: 2em; }
+      body.evangelist section.content nav ol li.active a {
+        background-color: #d02614;
+        color: white; }
+body.evangelist section.content .organizer-search {
+  text-align: center;
+  margin-top: 3em; }
+  body.evangelist section.content .organizer-search p {
+    margin-bottom: 0; }
+
+body.contact section.content article table {
+  width: 100%; }
+  body.contact section.content article table thead {
+    color: #888888; }
+  body.contact section.content article table thead th:first-child, body.contact section.content article table tbody tr td:first-child {
+    padding-left: 6em; }
+
+body.oauth section.content article h1 {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 1.86111em;
+  padding-bottom: 0.5em; }
+  body.oauth section.content article h1:after {
+    display: none; }
+body.oauth section.content article img {
+  padding-bottom: 1em; }
+
+body.blog article header h1 {
+  margin-bottom: 0.85616em; }
+  body.blog article header h1:after {
+    display: none; }
+body.blog article header h2 {
+  font-size: 0.85616em;
+  margin-top: 0; }
+body.blog article header:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  margin: 1.46603em auto 3.66509em;
+  background: #404040;
+  border: 0; }
+body.blog article > p {
+  font-size: 1.168em;
+  line-height: 1.45;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 0.5em; }
+body.blog article div.cta {
+  text-align: center;
+  font-size: 1.168em; }
+  body.blog article div.cta:before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin: 2.19905em auto 1.46603em;
+    background: #888888;
+    border: 0; }
+  body.blog article div.cta ul.cta {
+    margin-top: 2em; }
+
+body.sponsor section.content article.sell {
+  padding: 1em 1em 0.5em 1em; }
+  body.sponsor section.content article.sell ul {
+    padding: 0; }
+    body.sponsor section.content article.sell ul li {
+      list-style-type: none;
+      float: left;
+      padding: 0 6px; }
+      body.sponsor section.content article.sell ul li img {
+        opacity: 0.6; }
+  body.sponsor section.content article.sell h2 {
+    margin: 2em 0 0.8em 0; }
+    body.sponsor section.content article.sell h2:first-child {
+      margin-top: 0; }
+body.sponsor section.content article.sponsorsheet table tr td:nth-child(4), body.sponsor section.content article.sponsorsheet table thead th:nth-child(4),
+body.sponsor section.content article.sponsorsheet table tr td:nth-child(5), body.sponsor section.content article.sponsorsheet table thead th:nth-child(5) {
+  background-color: #dfdedd; }
+body.sponsor section.content article.sponsorsheet table tr td {
+  text-align: right; }
+
+body.host section.content article.intro, body.host section.content article.faq {
+  padding: 1em 1em 0.5em 1em; }
+body.host section.content article.faq {
+  text-align: center; }
+body.host section.content article.requirements, body.host section.content article.sell {
+  padding: 1em 1em 0.5em 1em; }
+body.host section.content article.sell {
+  padding: 1em 1em 0.5em 1em; }
+  body.host section.content article.sell ul {
+    text-align: center;
+    padding: 0; }
+    body.host section.content article.sell ul li {
+      list-style-type: none;
+      padding: 0 6px;
+      display: inline-block; }
+      body.host section.content article.sell ul li img {
+        opacity: 0.6; }
+body.host section.content article h2 {
+  margin: 2em 0 0.8em 0; }
+  body.host section.content article h2:first-child {
+    margin-top: 0; }
+body.host section.content article.sponsorsheet table tr td {
+  text-align: right; }
+
+body.staff section.content article.hud table tbody tr td, body.staff section.content article.hud table tbody tr th {
+  text-align: center;
+  padding: 0.5em 0 0.5em 0; }
+  body.staff section.content article.hud table tbody tr td[colspan], body.staff section.content article.hud table tbody tr th[colspan] {
+    text-align: left; }
+body.staff section.content form .field input, body.staff section.content form .field select, body.staff section.content form .field textarea {
+  width: 529px; }
+body.staff section.content article.eventdirectory > ul {
+  padding: 0;
+  margin: 0; }
+  body.staff section.content article.eventdirectory > ul > li {
+    width: 30%;
+    float: left;
+    list-style-type: none;
+    height: 200px;
+    overflow: auto;
+    margin: 0.5%; }
+    body.staff section.content article.eventdirectory > ul > li h2 {
+      padding: 0.5em;
+      margin: 0;
+      width: 100%;
+      text-decoration: underline; }
+    body.staff section.content article.eventdirectory > ul > li ul li {
+      list-style-type: none; }
+      body.staff section.content article.eventdirectory > ul > li ul li.ended a {
+        text-decoration: line-through;
+        color: black; }
+      body.staff section.content article.eventdirectory > ul > li ul li.happening a:after {
+        content: "NOW";
+        background-color: #d02614;
+        color: white; }
+body.staff section.content article.userdirectory table td.email {
+  text-overflow: ellipsis;
+  max-width: 20px;
+  overflow: hidden; }
+body.staff section.content article.userdirectory table td.pic {
+  max-width: 32px; }
+body.staff section.content nav {
+  padding-bottom: 2em;
+  background-color: white; }
+  body.staff section.content nav h1 {
+    padding-top: 2em;
+    font-size: 1.168em;
+    text-align: center; }
+    body.staff section.content nav h1:after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 2px;
+      margin: 1.46603em auto;
+      background: #404040; }
+  body.staff section.content nav ol {
+    padding: 0;
+    margin: 1em 2em; }
+    body.staff section.content nav ol li {
+      list-style-type: none;
+      margin-bottom: 0; }
+      body.staff section.content nav ol li a, body.staff section.content nav ol li h2 {
+        padding: 0.25em; }
+      body.staff section.content nav ol li a {
+        display: block; }
+        body.staff section.content nav ol li a:hover, body.staff section.content nav ol li a:active {
+          border-bottom: none;
+          color: black;
+          background-color: #dfdedd; }
+      body.staff section.content nav ol li h2 {
+        font-size: 0.85616em;
+        padding-top: 2em; }
+      body.staff section.content nav ol li.active a {
+        background-color: #d02614;
+        color: white; }
