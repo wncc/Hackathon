@@ -1,0 +1,55 @@
+.hero.event header > a {
+    background-color: rgba(144, 0, 26, 0.9);
+    color: #fff;
+}
+
+ul.teams li .name a, section.notpublished {
+    background-color: #90001a;
+    color: #fff;
+}
+
+body.index section.content article a.cta,
+body.person.view section.content article.edit a,
+body a.action, section.content form input[type="submit"],
+body section.content ul.cta li a,
+body .hero.event header > a{
+    background-color: #90001a;
+    -webkit-box-shadow: 0 4px 0 #48000d;
+    box-shadow: 0 4px 0 #48000d;
+    color: #fff;
+}
+
+section.content a, section.content .gc-cs-link,
+body.dashboard section.content section.scoreboards div ol li.current,
+body.schedule section.content article table tbody tr td,
+body.dashboard section.content article.rewards table tbody tr.next,
+body.dashboard section.content article.timeline table tbody tr.passed td {
+    color: #90001a;
+}
+
+section.content a:hover, section.content .gc-cs-link:hover,
+body > header nav ul li.active a, body > header nav ul li a:active, body > header nav ul li a:hover {
+    border-bottom-color: #90001a;
+}
+
+section.content a:active, section.content .gc-cs-link:active {
+    background-color: #90001a;
+    color: #fff;
+}
+
+::selection {
+    background: #90001a;
+}
+::-moz-selection {
+    background: #90001a;
+}
+
+section.content input[type="text"]:focus,
+section.content input[type="password"]:focus,
+section.content input[type="datetime-local"]:focus,
+section.content input[type="number"]:focus,
+section.content input[type="email"]:focus,
+section.content textarea:focus,
+section.content select:focus {
+    border-color: #90001a;
+}
