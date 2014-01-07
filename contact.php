@@ -1,52 +1,5 @@
-<!DOCTYPE html>
-<html class=""><head>
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
-    
-    <title>Hackathon</title>
-    <meta name="description" content="
-                    Hackathon is a  24-hour programming marathon events for IIT Bombay students who
-            are new to programming. All events are volunteer-run, and supported by lWeb and Coding club IIT Bomaby.
-            ">
-   
-        <meta property="og:title" content="
-        Hackathon   ">
-    <meta property="og:site_name" content="Hackathon">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="
-                    Hackathon is a  24-hour programming marathon events for IIT Bombay students who
-            are new to programming. All events are volunteer-run, and supported by lWeb and Coding club IIT Bomaby.">
-
-    
-        <link rel="stylesheet" href="css/global.css">
-    
-
-    
-        <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><link href="css/d.css" rel="stylesheet">
-</head>
-<body data-twttr-rendered="true" class="index">
-    <header>
-        <h1><a href="index.html">Hackathon</a></h1>
-        <nav>
-            <ul>
-                <li ><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                 <li><a href="page3.html">Resources and Prizes</a></li>
-                <li><a href="page4.html">Rules and Timings</a></li>
-                <li class="active"><a href="contact.html">Contact us</a></li>
-                            </ul>
-        </nav>
-    </header>
-
-            <section class="hero attend">
-    <header>
-        <a href="index.html">
-                                <h1>Become a better programmer at Hackathon</h1>
-                    <h2>Come to Hackathon to pitch ideas, form teams, and make something amazing in 24 hours!</h2>
-                        </a>
-    </header>
-</section>
-            <section class="content">
+<?php include 'header.php' ?>
+ <section class="content">
        <article>
             <h1>Hackathon Organizers</h1>
             <table>
@@ -125,15 +78,4 @@
         </article>
     </section>
 
-    <footer>
-            <p>Copyright © 2014 <a href="http://www.wncc-iitb.org/">Web and Coding Club</a>. All rights reserved. Hackathon&#8482; is a trademark of WnCC,IIT Bombay.</p>
-        <nav>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="https://github.com/wncc/Hackathon" title="1c64480014bf07dfbe07f62ffc7660706556199d" target="_blank">Source Code</a></li>
-                        
-                            </ul>
-        </nav>
-    </footer>
-
-</body></html>
+<?php include 'footer.php' ?>
