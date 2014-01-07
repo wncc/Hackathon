@@ -22,11 +22,11 @@
         <h1><a href="index.html">Hackathon</a></h1>
         <nav>
             <ul>
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/resources">Resources and Prizes</a></li>
-                <li><a href="/schedule">Schedule</a></li>
-                <li><a href="/contact">Contact us</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resources.php">Resources and Prizes</a></li>
+                <li><a href="schedule.php">Schedule</a></li>
+                <li><a href="contact.php">Contact us</a></li>
             </ul>
         </nav>
     </header>
