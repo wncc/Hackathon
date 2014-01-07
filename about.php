@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<link rel="stylesheet" href="css/about.css">
 </head>
 <body data-twttr-rendered="true" class="index">
     <header>
