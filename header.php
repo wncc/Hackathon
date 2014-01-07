@@ -14,26 +14,3 @@
     <link rel="stylesheet" href="css/about.css">
     <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style>
     <link href="css/d.css" rel="stylesheet">
-</head>
-<body data-twttr-rendered="true" class="index">
-    <header>
-        <h1><a href="index.html">Hackathon</a></h1>
-        <nav>
-            <ul>
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="resources.php">Resources and Prizes</a></li>
-                <li><a href="schedule.php">Schedule</a></li>
-                <li><a href="contact.php">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero attend">
-    <header>
-        <a href="/">
-            <h1>Become a better programmer at Hackathon</h1>
-            <h2>Come to Hackathon to pitch ideas, form teams, and make something amazing in 24 hours!</h2>
-        </a>
-    </header>
-    </section>
