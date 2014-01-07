@@ -1,0 +1,1014 @@
+.hero.event header > a {
+    background-color: rgba(85, 42, 255, 0.9);
+    color: #fff;
+}
+
+ul.teams li .name a, section.notpublished {
+    background-color: #552aff;
+    color: #fff;
+}
+
+body.index section.content article a.cta,
+body.person.view section.content article.edit a,
+body a.action, section.content form input[type="submit"],
+body section.content ul.cta li a,
+body .hero.event header > a{
+    background-color: #552aff;
+    -webkit-box-shadow: 0 4px 0 #2b1580;
+    box-shadow: 0 4px 0 #2b1580;
+    color: #fff;
+}
+
+section.content a, section.content .gc-cs-link,
+body.dashboard section.content section.scoreboards div ol li.current,
+body.schedule section.content article table tbody tr td,
+body.dashboard section.content article.rewards table tbody tr.next,
+body.dashboard section.content article.timeline table tbody tr.passed td {
+    color: #552aff;
+}
+
+section.content a:hover, section.content .gc-cs-link:hover,
+body > header nav ul li.active a, body > header nav ul li a:active, body > header nav ul li a:hover {
+    border-bottom-color: #552aff;
+}
+
+section.content a:active, section.content .gc-cs-link:active {
+    background-color: #552aff;
+    color: #fff;
+}
+
+::selection {
+    background: #552aff;
+}
+::-moz-selection {
+    background: #552aff;
+}
+
+section.content input[type="text"]:focus,
+section.content input[type="password"]:focus,
+section.content input[type="datetime-local"]:focus,
+section.content input[type="number"]:focus,
+section.content input[type="email"]:focus,
+section.content textarea:focus,
+section.content select:focus {
+    border-color: #552aff;
+}
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Shadows+Into+Light+Two);
+body.index section.content article h1, body.login section.content article h1, body.person.view section.content article.details .name, body.person.view section.content article.details .headline, body.person.view section.content article.details .website, body section.content form input[type="text"], body section.content form input[type="password"], body section.content form input[type="datetime-local"], body section.content form input[type="number"],
+body section.content form input[type="email"], body section.content form textarea, body section.content form select, body section.content table tbody td, body section.content table tbody th, body section.content table tr th .details, body section.content p, body section.content blockquote, body section.content ul, body section.content ol, body section.content article h3, body section.content article h4, footer p, footer nav {
+  font-family: "proxima-nova", sans-serif; }
+
+body section.content ul.cta li a, a.action, section.content form input[type="submit"], .hero.event header > a, body.index section.content article a.cta, body.login section.content article.register a.cta, body.person.view section.content article.edit a, body section.content table thead, body section.content form div.field label, body section.content table tr th[colspan], body section.content .error, body section.content article h1, body section.content article h2, section.notpublished, body > header, .hero.event header h1, .hero.event header h2, body.dashboard section.content nav h1, body.dashboard section.content nav ol li h2, ul.teams li .name a {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #404040; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased; }
+
+strong {
+  font-weight: bold; }
+
+small, sub, sup {
+  font-size: 0.55em; }
+
+sub {
+  vertical-align: sub; }
+
+sup {
+  vertical-align: super; }
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body section.content form input[type="text"], body section.content form input[type="password"], body section.content form input[type="datetime-local"], body section.content form input[type="number"],
+body section.content form input[type="email"], body section.content form textarea, body section.content form select {
+  outline: none;
+  border: 1px solid #999999;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0.5em;
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  background-color: transparent; }
+  body section.content form input[type="text"]:focus, body section.content form input[type="password"]:focus, body section.content form input[type="datetime-local"]:focus, body section.content form input[type="number"]:focus,
+  body section.content form input[type="email"]:focus, body section.content form textarea:focus, body section.content form select:focus {
+    outline: none;
+    border: 1px solid #d02614; }
+
+body section.content form input[type="submit"], body section.content ul.cta li a, a.action, section.content form input[type="submit"], .hero.event header > a, body.index section.content article a.cta, body.login section.content article.register a.cta, body.person.view section.content article.edit a {
+  color: white;
+  background-color: #d02614;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 0;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  -moz-box-shadow: 0 4px 0 #73150b;
+  -webkit-box-shadow: 0 4px 0 #73150b;
+  box-shadow: 0 4px 0 #73150b; }
+
+body.dashboard section.content nav ul.cta li a, body.dashboard section.content ul.cta li nav a, body.person.view section.content section.col:first-child ul.cta li a, body.person.view section.content ul.cta li section.col:first-child a, body.dashboard section.content nav a.action, body.person.view section.content section.col:first-child a.action, body.dashboard section.content nav form input[type="submit"], body.dashboard section.content form nav input[type="submit"], body.person.view section.content section.col:first-child form input[type="submit"], body.person.view section.content form section.col:first-child input[type="submit"], body.dashboard section.content nav .hero.event header > a, .hero.event body.dashboard section.content nav header > a, body.person.view section.content section.col:first-child .hero.event header > a, .hero.event body.person.view section.content section.col:first-child header > a, body.dashboard body.index section.content nav article a.cta, body.index body.dashboard section.content nav article a.cta, body.dashboard body.index section.content article nav a.cta, body.index body.dashboard section.content article nav a.cta, body.person.view body.index section.content section.col:first-child article a.cta, body.index body.person.view section.content section.col:first-child article a.cta, body.person.view body.index section.content article section.col:first-child a.cta, body.index body.person.view section.content article section.col:first-child a.cta, body.dashboard body.login section.content nav article.register a.cta, body.login body.dashboard section.content nav article.register a.cta, body.dashboard body.login section.content article.register nav a.cta, body.login body.dashboard section.content article.register nav a.cta, body.person.view body.login section.content section.col:first-child article.register a.cta, body.login body.person.view section.content section.col:first-child article.register a.cta, body.person.view body.login section.content article.register section.col:first-child a.cta, body.login body.person.view section.content article.register section.col:first-child a.cta, body.dashboard body.person.view section.content nav article.edit a, body.person.view body.dashboard section.content nav article.edit a, body.dashboard body.person.view section.content article.edit nav a, body.person.view body.dashboard section.content article.edit nav a, body.person.view section.content section.col:first-child article.edit a, body.person.view section.content article.edit section.col:first-child a, body.teams.edit section.content form article.members input[type="submit"], body.teams.edit section.content form article.is_presenting input[type="submit"], body.teams.edit article.members section.content ul.cta li a, body.teams.edit section.content ul.cta li article.members a, body.teams.edit article.is_presenting section.content ul.cta li a, body.teams.edit section.content ul.cta li article.is_presenting a, body.sponsor section.content article.sell ul.cta li a, body.sponsor section.content ul.cta li article.sell a, body.teams.edit article.members a.action, body.teams.edit article.is_presenting a.action, body.sponsor section.content article.sell a.action, body.teams.edit article.members section.content form input[type="submit"], section.content form body.teams.edit article.members input[type="submit"], body.teams.edit article.is_presenting section.content form input[type="submit"], section.content form body.teams.edit article.is_presenting input[type="submit"], body.sponsor section.content article.sell form input[type="submit"], body.sponsor section.content form article.sell input[type="submit"], body.teams.edit article.members .hero.event header > a, .hero.event body.teams.edit article.members header > a, body.teams.edit article.is_presenting .hero.event header > a, .hero.event body.teams.edit article.is_presenting header > a, body.sponsor section.content article.sell .hero.event header > a, .hero.event body.sponsor section.content article.sell header > a, body.teams.edit body.index section.content article.members a.cta, body.index section.content body.teams.edit article.members a.cta, body.teams.edit body.index section.content article.is_presenting a.cta, body.index section.content body.teams.edit article.is_presenting a.cta, body.sponsor body.index section.content article.sell a.cta, body.index body.sponsor section.content article.sell a.cta, body.teams.edit article.members body.login section.content article.register a.cta, body.login section.content article.register body.teams.edit article.members a.cta, body.teams.edit article.is_presenting body.login section.content article.register a.cta, body.login section.content article.register body.teams.edit article.is_presenting a.cta, body.sponsor body.login section.content article.sell article.register a.cta, body.login body.sponsor section.content article.sell article.register a.cta, body.sponsor body.login section.content article.register article.sell a.cta, body.login body.sponsor section.content article.register article.sell a.cta, body.teams.edit article.members body.person.view section.content article.edit a, body.person.view section.content article.edit body.teams.edit article.members a, body.teams.edit article.is_presenting body.person.view section.content article.edit a, body.person.view section.content article.edit body.teams.edit article.is_presenting a, body.sponsor body.person.view section.content article.sell article.edit a, body.person.view body.sponsor section.content article.sell article.edit a, body.sponsor body.person.view section.content article.edit article.sell a, body.person.view body.sponsor section.content article.edit article.sell a, body.login section.content article.register ul.cta li a, body.login section.content ul.cta li article.register a, body.host section.content article.requirements ul.cta li a, body.host section.content ul.cta li article.requirements a, body.host section.content article.sell ul.cta li a, body.host section.content ul.cta li article.sell a, body.login section.content article.register a.action, body.host section.content article.requirements a.action, body.host section.content article.sell a.action, body.login section.content article.register form input[type="submit"], body.login section.content form article.register input[type="submit"], body.host section.content article.requirements form input[type="submit"], body.host section.content form article.requirements input[type="submit"], body.host section.content article.sell form input[type="submit"], body.host section.content form article.sell input[type="submit"], body.login section.content article.register .hero.event header > a, .hero.event body.login section.content article.register header > a, body.host section.content article.requirements .hero.event header > a, .hero.event body.host section.content article.requirements header > a, body.host section.content article.sell .hero.event header > a, .hero.event body.host section.content article.sell header > a, body.host body.index section.content article.requirements a.cta, body.index body.host section.content article.requirements a.cta, body.host body.index section.content article.sell a.cta, body.index body.host section.content article.sell a.cta, body.login section.content article.register a.cta, body.login body.person.view section.content article.register article.edit a, body.person.view body.login section.content article.register article.edit a, body.login body.person.view section.content article.edit article.register a, body.person.view body.login section.content article.edit article.register a, body.host body.person.view section.content article.requirements article.edit a, body.person.view body.host section.content article.requirements article.edit a, body.host body.person.view section.content article.edit article.requirements a, body.person.view body.host section.content article.edit article.requirements a, body.host body.person.view section.content article.sell article.edit a, body.person.view body.host section.content article.sell article.edit a, body.host body.person.view section.content article.edit article.sell a, body.person.view body.host section.content article.edit article.sell a, body.index section.content article.people ul.cta li a, body.index section.content ul.cta li article.people a, body.index section.content article.presentedby ul.cta li a, body.index section.content ul.cta li article.presentedby a, body.index section.content article.people a.action, body.index section.content article.presentedby a.action, body.index section.content article.people form input[type="submit"], body.index section.content form article.people input[type="submit"], body.index section.content article.presentedby form input[type="submit"], body.index section.content form article.presentedby input[type="submit"], body.index section.content article.people .hero.event header > a, .hero.event body.index section.content article.people header > a, body.index section.content article.presentedby .hero.event header > a, .hero.event body.index section.content article.presentedby header > a, body.index section.content article.people a.cta, body.index section.content article.presentedby a.cta, body.index body.person.view section.content article.people article.edit a, body.person.view body.index section.content article.people article.edit a, body.index body.person.view section.content article.edit article.people a, body.person.view body.index section.content article.edit article.people a, body.index body.person.view section.content article.presentedby article.edit a, body.person.view body.index section.content article.presentedby article.edit a, body.index body.person.view section.content article.edit article.presentedby a, body.person.view body.index section.content article.edit article.presentedby a {
+  width: 100%; }
+
+body section.content table {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-collapse: collapse;
+  border-spacing: 0; }
+  body section.content table thead {
+    font-size: 0.73302em; }
+    body section.content table thead tr td, body section.content table thead tr th {
+      border-top: none;
+      padding: 0.5em 1em 0.5em 1em; }
+  body section.content table tbody td, body section.content table tbody th {
+    padding: 0.5em 1em 0.5em 0;
+    vertical-align: top;
+    border-top: 1px solid #999999;
+    text-align: left; }
+  body section.content table tbody th {
+    font-weight: bold; }
+
+body section.content, footer, body > header, .hero.event header {
+  width: 980px;
+  margin: 0 auto; }
+
+body.dashboard section.content nav, body.person.view section.content section.col:first-child, body.teams.edit article.members, body.teams.edit article.is_presenting, body.teams.edit article.details, body.person.view section.content section.col:last-child, body section.content article {
+  display: block;
+  float: left;
+  margin: 12px; }
+
+body.dashboard section.content nav, body.person.view section.content section.col:first-child {
+  width: 221px; }
+
+body.teams.edit article.members, body.teams.edit article.is_presenting, body.sponsor section.content article.sell {
+  width: 302.66667px; }
+
+body.login section.content article.register, body.host section.content article.requirements, body.host section.content article.sell {
+  width: 384.33333px; }
+
+body.index section.content article.people, body.index section.content article.presentedby {
+  width: 466px; }
+
+body.login section.content article.login, body.host section.content article.intro, body.host section.content article.faq {
+  width: 547.66667px; }
+
+body.teams.edit article.details, body.sponsor section.content article.intro {
+  width: 629.33333px; }
+
+body.dashboard section.content article, body.person.view section.content section.col:last-child {
+  width: 711px; }
+
+body section.content article, body.index section.content article {
+  width: 956px; }
+
+body section.content::after, footer::after, body > header::after, .hero.event header::after, footer nav ul::after, a.action::after, section.content form input[type="submit"]::after, body.index section.content article .whatdo ul::after, body.index section.content article::after, body.index section.content article.presentedby ul::after, body.dashboard section.content section.scoreboards div:last-child::after, ul.teams li::after, body.sponsor section.content article.sell ul::after, body section.content:after, footer:after, body > header:after, .hero.event header:after, footer nav ul:after, a.action:after, section.content form input[type="submit"]:after, body.index section.content article .whatdo ul:after, body.index section.content article:after, body.index section.content article.presentedby ul:after, body.dashboard section.content section.scoreboards div:last-child:after, ul.teams li:after, body.sponsor section.content article.sell ul:after {
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both; }
+
+body section.content::after, footer::after, body > header::after, .hero.event header::after, footer nav ul::after, a.action::after, section.content form input[type="submit"]::after, body.index section.content article .whatdo ul::after, body.index section.content article::after, body.index section.content article.presentedby ul::after, body.dashboard section.content section.scoreboards div:last-child::after, ul.teams li::after, body.sponsor section.content article.sell ul::after {
+  content: ""; }
+body section.content:after, footer:after, body > header:after, .hero.event header:after, footer nav ul:after, a.action:after, section.content form input[type="submit"]:after, body.index section.content article .whatdo ul:after, body.index section.content article:after, body.index section.content article.presentedby ul:after, body.dashboard section.content section.scoreboards div:last-child:after, ul.teams li:after, body.sponsor section.content article.sell ul:after {
+  content: ""; }
+
+body section.content form div.field {
+  margin-bottom: 1.5em;
+  /* border radius for radio*/
+  /* border radius for checkbox */
+  /* active state */
+  /* radio checked */
+  /* checkbox checked */ }
+  body section.content form div.field label {
+    float: left;
+    width: 150px;
+    padding-top: 0.8em; }
+  body section.content form div.field input, body section.content form div.field textarea, body section.content form div.field select {
+    float: left;
+    width: 600px; }
+  body section.content form div.field input[type="radio"],
+  body section.content form div.field input[type="checkbox"] {
+    height: 2.75em;
+    width: 2.75em;
+    vertical-align: middle;
+    margin: 0em 0.4em 0.4em 0;
+    border: 1px solid #999999;
+    -webkit-appearance: none; }
+  body section.content form div.field input[type="radio"] {
+    -webkit-border-radius: 100%;
+    border-radius: 100%; }
+  body section.content form div.field input[type="checkbox"] {
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+  body section.content form div.field input[type="radio"]:active:not(:disabled),
+  body section.content form div.field input[type="checkbox"]:active:not(:disabled),
+  body section.content form div.field input[type="radio"]:focus,
+  body section.content form div.field input[type="checkbox"]:focus {
+    outline: none;
+    border-color: #d02614; }
+  body section.content form div.field input[type="radio"]:checked:before {
+    display: block;
+    height: 0.3em;
+    width: 0.3em;
+    position: relative;
+    left: 0.4em;
+    top: 0.4em;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 100%;
+    content: ''; }
+  body section.content form div.field input[type="checkbox"]:checked:before {
+    color: black;
+    content: '\2713';
+    -webkit-margin-start: 0;
+    padding: 0 0 0 0.6em;
+    -webkit-margin-start: 0;
+    top: 0.25em;
+    position: relative;
+    font-size: 1.25em; }
+  body section.content form div.field textarea {
+    height: 5em; }
+  body section.content form div.field .help, body section.content form div.field img {
+    margin-left: 150px;
+    display: block;
+    clear: both;
+    font-size: 0.75em; }
+  body section.content form div.field:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both; }
+body section.content table tr th {
+  font-weight: normal; }
+  body section.content table tr th[colspan] {
+    font-size: 0.80597em;
+    padding-top: 4em;
+    border-top: none; }
+  body section.content table tr th .details {
+    font-size: 0.9em;
+    display: block;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    margin-top: 1em; }
+body section.content table tr:first-child th[colspan] {
+  padding-top: 1em; }
+body section.content .error {
+  width: 100%;
+  text-align: center;
+  color: #d02614;
+  padding-bottom: 1em; }
+body section.content hr {
+  display: block;
+  width: 50%;
+  height: 2px;
+  margin: 1.46603em auto;
+  background: #404040;
+  border: 0; }
+body section.content ul.cta {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center; }
+  body section.content ul.cta li {
+    display: inline-block; }
+    body section.content ul.cta li a {
+      background-color: #d02614;
+      display: inline-block;
+      margin: 0.25em 0; }
+body section.content table {
+  width: 100%; }
+body section.content a, body section.content .gc-cs-link {
+  color: #d02614;
+  text-decoration: none; }
+  body section.content a:hover, body section.content .gc-cs-link:hover {
+    border-bottom: 1px solid #d02614; }
+  body section.content a:active, body section.content .gc-cs-link:active {
+    background-color: #d02614;
+    color: #fff;
+    border-bottom-color: transparent; }
+body section.content p, body section.content blockquote {
+  font-size: 1em;
+  line-height: 1.28425em;
+  margin-bottom: 1em; }
+  body section.content p em, body section.content blockquote em {
+    font-variant: normal;
+    background-color: #eee; }
+body section.content blockquote {
+  font-style: italic;
+  margin-left: 2em;
+  padding-left: 1em;
+  border-left: 0.5em solid #404040; }
+body section.content img {
+  max-width: 100%;
+  height: auto; }
+body section.content ul, body section.content ol {
+  margin-bottom: 1em; }
+  body section.content ul li, body section.content ol li {
+    font-size: 1em;
+    line-height: 1.28425em;
+    margin-bottom: 0.14384em; }
+body section.content ol li {
+  list-style: decimal; }
+body section.content ul li {
+  list-style: disc; }
+body section.content ul ul, body section.content ol ol, body section.content ul ol, body section.content ol ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 0.14384em; }
+body section.content article {
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 15px;
+  padding-top: 2.5em;
+  padding-bottom: 2em; }
+  body section.content article h1 {
+    font-size: 1.28425em;
+    text-align: center;
+    padding-top: 3em; }
+    body section.content article h1:after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 2px;
+      margin: 1.46603em auto;
+      background: #404040; }
+  body section.content article > h1:first-child, body section.content article > header:first-child h1:first-child, body section.content article > p:first-child h1:first-child {
+    padding-top: 0; }
+  body section.content article > img:first-child, body section.content article > p:first-child > img:first-child {
+    margin-top: -1.5em;
+    margin-bottom: -3.5em; }
+  body section.content article h2 {
+    text-align: center;
+    margin: 2.5em auto 1em auto;
+    color: #404040;
+    font-size: 1em;
+    line-height: 1.28425em; }
+  body section.content article h3 {
+    font-size: 1.09953em;
+    margin-top: 1.168em;
+    margin-bottom: 0.73302em;
+    font-weight: bold;
+    text-align: center; }
+  body section.content article h4 {
+    font-weight: bold; }
+body section.content article, body.index section.content article {
+  padding-left: 6em;
+  padding-right: 6em; }
+  body section.content article h2, body.index section.content article h2 {
+    margin: 4em auto 2em auto;
+    width: 70%; }
+body.dashboard section.content article, body.teams.edit section.content article.details, body.sponsor section.content article.intro, body.login section.content article.login, body.host section.content article.intro, body.host section.content article.faq, body.index section.content article.people, body.index section.content article.presentedby, body.login section.content article.register, body.host section.content article.requirements, body.host section.content article.sell, body.teams.edit section.content article.members, body.teams.edit section.content article.is_presenting, body.sponsor section.content article.sell {
+  padding-left: 1em;
+  padding-right: 1em; }
+  body.dashboard section.content article h2, body.teams.edit section.content article.details h2, body.sponsor section.content article.intro h2, body.login section.content article.login h2, body.host section.content article.intro h2, body.host section.content article.faq h2, body.index section.content article.people h2, body.index section.content article.presentedby h2, body.login section.content article.register h2, body.host section.content article.requirements h2, body.host section.content article.sell h2, body.teams.edit section.content article.members h2, body.teams.edit section.content article.is_presenting h2, body.sponsor section.content article.sell h2 {
+    margin: 4em auto 2em auto;
+    width: 100%; }
+  body.dashboard section.content article ul, body.dashboard section.content article ol, body.teams.edit section.content article.details ul, body.sponsor section.content article.intro ul, body.teams.edit section.content article.details ol, body.sponsor section.content article.intro ol, body.login section.content article.login ul, body.host section.content article.intro ul, body.host section.content article.faq ul, body.login section.content article.login ol, body.host section.content article.intro ol, body.host section.content article.faq ol, body.index section.content article.people ul, body.index section.content article.presentedby ul, body.index section.content article.people ol, body.index section.content article.presentedby ol, body.login section.content article.register ul, body.host section.content article.requirements ul, body.host section.content article.sell ul, body.login section.content article.register ol, body.host section.content article.requirements ol, body.host section.content article.sell ol, body.teams.edit section.content article.members ul, body.teams.edit section.content article.is_presenting ul, body.sponsor section.content article.sell ul, body.teams.edit section.content article.members ol, body.teams.edit section.content article.is_presenting ol, body.sponsor section.content article.sell ol {
+    padding: 0 2em; }
+
+footer {
+  font-size: 0.80597em;
+  padding: 2em 0; }
+  footer p {
+    float: left;
+    color: #999999; }
+  footer a {
+    color: #404040; }
+  footer nav {
+    float: right; }
+    footer nav ul li {
+      list-style-type: none;
+      float: left;
+      padding-left: 1em; }
+      footer nav ul li a {
+        color: #999999; }
+
+section.notpublished {
+  color: white;
+  background-color: #d02614;
+  text-align: center;
+  padding: 0.65em 0;
+  font-size: 0.73302em; }
+
+body > header {
+  z-index: 10;
+  position: relative; }
+  body > header h1 a {
+    float: left;
+    background-image: url(../img/global/codeday-logo.png);
+    width: 131px;
+    height: 3.73302em;
+    text-indent: -9999px;
+    background-position-y: 50%;
+    background-repeat: no-repeat; }
+  body > header nav {
+    padding: 1.5em 0; }
+    body > header nav ul {
+      padding: 0;
+      float: right; }
+      body > header nav ul li {
+        display: inline-block; }
+        body > header nav ul li a {
+          color: white;
+          background: transparent;
+          margin-left: 3em;
+          font-weight: 700;
+          font-size: 0.73302em; }
+        body > header nav ul li.active a, body > header nav ul li a:active {
+          border-bottom: 1px solid #d02614; }
+        body > header nav ul li a:hover {
+          border-bottom: 1px solid #d02614; }
+
+::selection {
+  background: #d02614;
+  color: #fff; }
+
+::-moz-selection {
+  background: #d02614;
+  color: #fff; }
+
+body {
+  background: #dfdedd url(../img/global/codedaybg.png);
+  color: #404040; }
+
+a.facebook-share-button {
+  background-color: #5b74a8;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #29447e #29447e #1a356e;
+  background-image: url(../img/global/fb-share.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: inline-block;
+  color: white !important;
+  padding: 3px 16px 2px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
+  a.facebook-share-button:active, a.facebook-share-button:hover {
+    border-bottom-color: #1a356e !important; }
+
+iframe.twitter-share-button {
+  position: relative;
+  top: 9px; }
+
+a.action, section.content form input[type="submit"] {
+  float: right;
+  color: white !important;
+  background-color: #d02614; }
+
+.hero.event {
+  background-image: url(../img/event/attend_hero.jpg);
+  height: 22em;
+  max-height: 400px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  position: relative;
+  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  margin: -3.73302em 0 1em 0; }
+  .hero.event header {
+    padding: 6em 0 2em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -490px;
+    background-size: cover;
+    text-align: center; }
+    .hero.event header h1 {
+      display: inline-block;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+      letter-spacing: 0.1em;
+      font-size: 2.53897em;
+      margin-bottom: 0.2954em; }
+    .hero.event header h2 {
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      display: block;
+      color: white; }
+      .hero.event header h2 .hook {
+        display: block;
+        margin-bottom: 2em; }
+      .hero.event header h2 .date:after {
+        content: ",";
+        margin: 0 0 0 -0.5em; }
+      .hero.event header h2 .time .start:after {
+        content: "-"; }
+      .hero.event header h2 .location a {
+        color: white;
+        text-decoration: underline; }
+      .hero.event header h2 .location:before {
+        content: " at "; }
+    .hero.event header > a {
+      display: inline-block;
+      font-size: 1.168em;
+      padding: 0.94138em;
+      margin-top: 0.47069em;
+      background-color: rgba(208, 38, 20, 0.9);
+      color: white;
+      -webkit-border-top-left-radius: 3px;
+      -webkit-border-top-right-radius: 3px;
+      -webkit-border-bottom-left-radius: 3px;
+      -webkit-border-bottom-right-radius: 3px;
+      -moz-border-radius-topleft: 3px;
+      -moz-border-radius-topright: 3px;
+      -moz-border-radius-bottomleft: 3px;
+      -moz-border-radius-bottomright: 3px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.8);
+      -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.8);
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.8); }
+      .hero.event header > a.disabled {
+        background-color: #888;
+        color: white;
+        -moz-box-shadow: 0 4px 0 rgba(119, 119, 119, 0.8);
+        -webkit-box-shadow: 0 4px 0 rgba(119, 119, 119, 0.8);
+        box-shadow: 0 4px 0 rgba(119, 119, 119, 0.8); }
+      .hero.event header > a:not(.disabled):after {
+        padding-left: 0.25em;
+        content: "\021E2"; }
+
+body.index section.content article {
+  padding: 1em 1em 2em 1em; }
+  body.index section.content article h1 {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1.86111em;
+    padding-bottom: 0.5em;
+    padding-top: 0; }
+    body.index section.content article h1:after {
+      display: none; }
+  body.index section.content article .whatis {
+    text-align: center; }
+  body.index section.content article .whatdo ul {
+    margin: 0; }
+    body.index section.content article .whatdo ul li {
+      width: 50%;
+      list-style-type: none;
+      float: left;
+      text-align: center;
+      padding: 0.5em; }
+      body.index section.content article .whatdo ul li img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0; }
+  body.index section.content article ul {
+    margin-left: 2em; }
+  body.index section.content article section {
+    float: left;
+    width: 50%;
+    padding: 0 1em; }
+  body.index section.content article.descriptor section:first-child {
+    border-right: 1px solid #ddd; }
+  body.index section.content article img {
+    margin-bottom: 1em;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; }
+  body.index section.content article.cta {
+    text-align: center; }
+  body.index section.content article.people ul {
+    padding: 0; }
+    body.index section.content article.people ul li {
+      list-style-type: none;
+      display: block;
+      width: 100%; }
+      body.index section.content article.people ul li img {
+        margin-bottom: 0;
+        margin-right: 3px;
+        height: 40px;
+        width: 40px; }
+      body.index section.content article.people ul li div {
+        position: relative;
+        bottom: 1px;
+        display: inline-block; }
+        body.index section.content article.people ul li div a {
+          display: block;
+          font-size: 25px; }
+        body.index section.content article.people ul li div span {
+          font-size: 10px;
+          position: relative;
+          bottom: 3px; }
+  body.index section.content article.presentedby ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%; }
+    body.index section.content article.presentedby ul li {
+      list-style-type: none;
+      height: auto;
+      display: table;
+      vertical-align: middle;
+      float: left;
+      padding: 0 1em;
+      margin: 0;
+      width: 49%; }
+      body.index section.content article.presentedby ul li a {
+        display: table-cell;
+        height: 150px;
+        vertical-align: middle; }
+        body.index section.content article.presentedby ul li a img {
+          width: 180px; }
+        body.index section.content article.presentedby ul li a:hover, body.index section.content article.presentedby ul li a:active {
+          text-decoration: none;
+          border: 0; }
+  body.index section.content article a.cta {
+    background-color: #d02614; }
+    body.index section.content article a.cta:before {
+      content: "";
+      display: inline-block;
+      height: 2em; }
+
+body.login section.content article h1 {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 1.86111em;
+  padding-bottom: 0.5em; }
+  body.login section.content article h1:after {
+    display: none; }
+body.login section.content article img {
+  padding-bottom: 1em; }
+body.login section.content article.register {
+  text-align: center; }
+  body.login section.content article.register a.cta {
+    background-color: #d02614; }
+    body.login section.content article.register a.cta:before {
+      content: "";
+      display: inline-block;
+      height: 2em; }
+
+body.dashboard section.content form .field input, body.dashboard section.content form .field select, body.dashboard section.content form .field textarea {
+  width: 529px; }
+body.dashboard section.content table tbody tr td {
+  text-align: center;
+  padding: 0.5em .5em 0.5em 0.5em; }
+  body.dashboard section.content table tbody tr td:first-child {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 1em; }
+body.dashboard section.content article.rewards table tbody tr {
+  color: #999999; }
+  body.dashboard section.content article.rewards table tbody tr.has {
+    color: black; }
+  body.dashboard section.content article.rewards table tbody tr.next {
+    color: #d02614; }
+  body.dashboard section.content article.rewards table tbody tr td {
+    text-align: left; }
+body.dashboard section.content section.scoreboards div {
+  width: 33%;
+  float: left; }
+  body.dashboard section.content section.scoreboards div ol {
+    padding: 0 0 0 1em; }
+    body.dashboard section.content section.scoreboards div ol li.current {
+      color: #d02614; }
+  body.dashboard section.content section.scoreboards div p.fineprint {
+    font-size: 0.7em; }
+body.dashboard section.content .sponsors table img {
+  max-height: 75px; }
+body.dashboard section.content nav {
+  padding-bottom: 2em;
+  background-color: white; }
+  body.dashboard section.content nav h1 {
+    padding-top: 2em;
+    font-size: 1.168em;
+    text-align: center; }
+    body.dashboard section.content nav h1:after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 2px;
+      margin: 1.46603em auto;
+      background: #404040; }
+  body.dashboard section.content nav ol {
+    padding: 0;
+    margin: 1em 2em; }
+    body.dashboard section.content nav ol li {
+      list-style-type: none;
+      margin-bottom: 0; }
+      body.dashboard section.content nav ol li a, body.dashboard section.content nav ol li h2 {
+        padding: 0.25em; }
+      body.dashboard section.content nav ol li a {
+        display: block; }
+        body.dashboard section.content nav ol li a:hover, body.dashboard section.content nav ol li a:active {
+          border-bottom: none;
+          color: black;
+          background-color: #dfdedd; }
+      body.dashboard section.content nav ol li h2 {
+        font-size: 0.85616em;
+        padding-top: 2em; }
+      body.dashboard section.content nav ol li.active a {
+        background-color: #d02614;
+        color: white; }
+
+body.schedule section.content article table tbody {
+  border: 1px solid #999999; }
+  body.schedule section.content article table tbody tr {
+    height: 1.75em; }
+    body.schedule section.content article table tbody tr:nth-child(4n+3) td:first-child, body.schedule section.content article table tbody tr:nth-child(4n+4) td:first-child {
+      background-color: #dfdedd;
+      border-top: 1px solid #999999; }
+    body.schedule section.content article table tbody tr:nth-child(2n) td:first-child {
+      border-bottom: 1px solid #999999;
+      border-top: none; }
+    body.schedule section.content article table tbody tr:nth-child(2n+1) td:first-child {
+      border-top: 1px solid #999999;
+      border-bottom: none; }
+    body.schedule section.content article table tbody tr:first-child td {
+      border-top: none !important;
+      border-right: none !important; }
+    body.schedule section.content article table tbody tr td {
+      width: 50%;
+      border: 1px solid #999999;
+      padding-left: 1em;
+      border-bottom-width: 0 !important;
+      color: #d02614;
+      box-shadow: 10px 0 10px -10px black inset; }
+      body.schedule section.content article table tbody tr td.code, body.schedule section.content article table tbody tr td.boring {
+        color: black; }
+      body.schedule section.content article table tbody tr td.empty {
+        background-color: #dfdedd;
+        background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.75, rgba(255, 255, 255, 0.2)), color-stop(0.75, transparent), to(transparent));
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+        background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+        background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+        -webkit-background-size: 20px 20px;
+        -moz-background-size: 20px 20px;
+        background-size: 20px 20px; }
+      body.schedule section.content article table tbody tr td:last-child {
+        border-right: none; }
+      body.schedule section.content article table tbody tr td:first-child {
+        border-left: none;
+        border-right-width: 0;
+        padding-right: 0.5em;
+        width: 0%;
+        border-top: none;
+        text-align: right;
+        color: black;
+        box-shadow: none; }
+
+body.resources section.content article ul li {
+  list-style-type: none;
+  width: 49%;
+  float: left;
+  padding: 1%;
+  text-align: center; }
+  body.resources section.content article ul li h2.title {
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+
+body.faq section.content article {
+  padding-left: 14em;
+  padding-right: 14em; }
+  body.faq section.content article h2 {
+    margin: 5em auto 3em auto; }
+  body.faq section.content article h3 {
+    padding-top: 1.6em; }
+
+body.person.view section.content section.col {
+  float: left;
+  margin-top: 0; }
+body.person.view section.content article {
+  width: 100%;
+  padding: 1em 1em 2em 1em; }
+  body.person.view section.content article.details {
+    text-align: center; }
+    body.person.view section.content article.details img {
+      margin: 0; }
+    body.person.view section.content article.details .name {
+      font-size: 1.59341em;
+      display: block; }
+    body.person.view section.content article.details .headline {
+      padding-bottom: 1em;
+      display: block; }
+    body.person.view section.content article.details .website {
+      display: block; }
+  body.person.view section.content article.edit {
+    padding: 2em;
+    text-align: center; }
+    body.person.view section.content article.edit a {
+      background-color: #d02614; }
+
+body.person.edit section.content input[type="file"] {
+  margin-left: 150px; }
+
+ul.people li {
+  background-image: url(../img/event/default_picture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  float: left;
+  display: block;
+  width: 11em;
+  height: 11em;
+  margin: 0.25em;
+  padding: 1em;
+  overflow: hidden;
+  padding: 1em;
+  height: 11em;
+  position: relative; }
+  ul.people li:first-child {
+    margin-left: 0; }
+  ul.people li:last-child {
+    margin-right: 0; }
+  ul.people li img {
+    position: absolute;
+    width: 13em;
+    height: 13em;
+    display: block;
+    top: 0;
+    left: 0; }
+  ul.people li .details {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.5em;
+    background: rgba(35, 48, 57, 0.6); }
+    ul.people li .details .name {
+      display: block;
+      width: 100%;
+      margin-bottom: 0.2em; }
+      ul.people li .details .name .first, ul.people li .details .name .last {
+        display: inline;
+        color: #fff;
+        font-weight: bold;
+        font-family: "proxima-nova", sans-serif;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+        text-transform: uppercase; }
+    ul.people li .details .phone, ul.people li .details .email a {
+      display: block;
+      color: #ddd;
+      font-size: 0.7em;
+      font-family: "brevia", sans-serif;
+      text-decoration: none; }
+      ul.people li .details .phone .gc-cs-link, ul.people li .details .email a .gc-cs-link {
+        text-decoration: none;
+        color: #ddd; }
+
+ul.teams li {
+  display: block;
+  height: 12em;
+  overflow-y: auto; }
+  ul.teams li .name a {
+    background-size: cover;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    background-color: #d02614;
+    color: white;
+    float: left;
+    display: block;
+    width: 11em;
+    height: 11em;
+    margin: 0.25em;
+    padding: 1em;
+    overflow: hidden;
+    position: relative; }
+  ul.teams li .description {
+    padding: 1em 0 1em 2em;
+    float: left; }
+
+body.teams.edit article.members form {
+  display: inline; }
+  body.teams.edit article.members form input[type="submit"] {
+    padding: 0.2em;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    float: none; }
+body.teams.edit article.is_presenting {
+  text-align: center; }
+  body.teams.edit article.is_presenting input[type="submit"] {
+    float: none; }
+body.teams.edit article.details form .field input, body.teams.edit article.details form .field select, body.teams.edit article.details form .field textarea {
+  width: 447px; }
+
+body.sponsor section.content article.sell {
+  padding: 1em 1em 0.5em 1em; }
+  body.sponsor section.content article.sell ul {
+    padding: 0; }
+    body.sponsor section.content article.sell ul li {
+      list-style-type: none;
+      float: left;
+      padding: 0 6px; }
+      body.sponsor section.content article.sell ul li img {
+        opacity: 0.6; }
+  body.sponsor section.content article.sell h2 {
+    margin: 2em 0 0.8em 0; }
+    body.sponsor section.content article.sell h2:first-child {
+      margin-top: 0; }
+body.sponsor section.content article.sponsorsheet table tr td:nth-child(4), body.sponsor section.content article.sponsorsheet table thead th:nth-child(4),
+body.sponsor section.content article.sponsorsheet table tr td:nth-child(5), body.sponsor section.content article.sponsorsheet table thead th:nth-child(5) {
+  background-color: #dfdedd; }
+body.sponsor section.content article.sponsorsheet table tr td {
+  text-align: right; }
+
+body.host section.content article.intro, body.host section.content article.faq {
+  padding: 1em 1em 0.5em 1em; }
+body.host section.content article.faq {
+  text-align: center; }
+body.host section.content article.requirements, body.host section.content article.sell {
+  padding: 1em 1em 0.5em 1em; }
+body.host section.content article.sell {
+  padding: 1em 1em 0.5em 1em; }
+  body.host section.content article.sell ul {
+    text-align: center;
+    padding: 0; }
+    body.host section.content article.sell ul li {
+      list-style-type: none;
+      padding: 0 6px;
+      display: inline-block; }
+      body.host section.content article.sell ul li img {
+        opacity: 0.6; }
+body.host section.content article h2 {
+  margin: 2em 0 0.8em 0; }
+  body.host section.content article h2:first-child {
+    margin-top: 0; }
+body.host section.content article.sponsorsheet table tr td {
+  text-align: right; }
