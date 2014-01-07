@@ -6,8 +6,8 @@
                 <thead>
                     <tr>
                                                     <th>Time</th>
-                                                    <th>Event Room</th>
-                                                    <th>Workshop Room</th>
+                                                    <th>NSL</th>
+                                                    <th>Seminar Hall</th>
                                             </tr>
                 </thead>
                 <tbody>
@@ -64,7 +64,7 @@
                                 Start Coding
                             </td>
                                                     <td rowspan="2">
-                                Intro to App Development: For people with no programming experience
+                                Intro to Git
                             </td>
                                             </tr>
                                     <tr>
@@ -77,7 +77,7 @@
                                 3pm
                             </td>
                                                     <td rowspan="2">
-                                Advanced - Meteor, Coder Clicker: For people who have written some code
+                                Intro to Web API's
                             </td>
                                             </tr>
                                     <tr>
