@@ -28,7 +28,7 @@
  <section class="content">
         <article>
             <h1>Schedule</h1>
-            The schedule starts from 18th January 2014!
+            <p align="center">The schedule starts from 18th January 2014!</p>
             <table>
                 <thead>
                     <tr>
