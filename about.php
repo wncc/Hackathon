@@ -18,8 +18,8 @@
     <section class="hero attend">
     <header>
         <a href="index.php">
-            <h1>Become a better programmer at Hackathon</h1>
-            <h2>Come to Hackathon to pitch ideas, form teams, and make something amazing in 24 hours!</h2>
+            <h1>Become a better programmer at this hackathon</h1>
+            <h2>Come  to pitch ideas, form teams, and make something amazing in 24 hours!</h2>
         </a>
     </header>
     </section>
@@ -27,15 +27,15 @@
             <section class="content">
         <article class="descriptor">
             <section class="whatis">
-                <h1>What is Hackathon?</h1>
-                <p>At Hackathon you'lll pitch ideas, form teams around the coolest ones, and then spend 24 hours building something
+                <h1>What is a hackathon?</h1>
+                <p>At a hackathon you'll pitch ideas, form teams around the coolest ones, and then spend 24 hours building something
                     awesome. At the end, you'll present to judges.</p>
                 <img src="img/img1.jpg">
                 <p>Oh, and you'll have a lot of fun along the way. Hackathon is kind of like a party, version 2.0.</p>
                 <a href="https://www.facebook.com/events/602975466456851/" target=_blank class="cta">Register Now</a>
             </section>
             <section class="whatdo">
-                <h1>What can I do at Hackathon?</h1>
+                <h1>What can I do at a hackathon?</h1>
                 <ul>
                     <li>
                         <img src="img/ideas.jpg">
