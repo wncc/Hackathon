@@ -17,8 +17,8 @@
     <section class="hero attend">
     <header>
         <a href="index.php">
-            <h1>Become a better programmer at Hackathon</h1>
-            <h2>Come to Hackathon to pitch ideas, form teams, and make something amazing in 24 hours!</h2>
+            <h1>Become a better programmer at this Hackathon</h1>
+            <h2>Come  to pitch ideas, form teams, and make something amazing in 24 hours!</h2>
         </a>
     </header>
     </section>
@@ -26,7 +26,7 @@
         <section class="col1">
             <article class="description">
                 <header>
-                    <p><em>Btech and Mtech students</em> of <em>all experience levels:</em> come to Hackathon to hang out with friends, meet new people, make something cool, and <em>become a better programmer</em> in <em>24 hours</em>.</p>
+                    <p><em>B. Tech and M. Tech students</em> of <em>all experience levels:</em> come to Hackathon to hang out with friends, meet new people, make something cool, and <em>become a better programmer</em> in <em>24 hours</em>.</p>
                 </header>
                 <span class="attendcta">
                     <p>Attend the Hackathon on 1st-2nd Feb at NSL!</p>

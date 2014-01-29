@@ -17,8 +17,8 @@
     <section class="hero attend">
     <header>
         <a href="/">
-            <h1>Become a better programmer at Hackathon</h1>
-            <h2>Come to Hackathon to pitch ideas, form teams, and make something amazing in 24 hours!</h2>
+            <h1>Become a better programmer at the hackathon</h1>
+            <h2>Come to  pitch ideas, form teams, and make something amazing in 24 hours!</h2>
         </a>
     </header>
     </section>
