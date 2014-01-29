@@ -27,6 +27,10 @@
     </section>
  <section class="content">
         <article>
+            <h1>Prizes</h1>
+            <p>
+                Prizes to three Best Hacks and Special Prizes to Best Freshie Hack
+            </p>
             <h1>Some Resources</h1>
             <p align="center"></p>
            <p>
@@ -34,10 +38,9 @@
                    <li><a href="http://www.w3schools.com" target="_blank"> Basic HTML ,CSS ,Javascript and others<a></li>
                    <li><a href="http://www.php.net" target="_blank">Official PHP Site</a></li>
                    <li><a href="https://developers.google.com/maps/" target="_blank">Google Map API</a></li>
+                   <li><a href="http://developer.yahoo.com/yql" target="_blank">Generating Queries with Yahoo Query Language</a></li>
                </ul>
            </p>
         </article>
     </section>
-
-
 <?php include 'footer.php' ?>

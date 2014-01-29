@@ -67,7 +67,7 @@
                         <td rowspan="6" class="code">
                                 Start Coding
                         </td>
-                        <td rowspan=42 class="empty">
+                        <td rowspan="13" class="empty">
                                 
                         </td>
                     </tr>
@@ -147,6 +147,9 @@
                         <td rowspan="7" class="code">
                             Code
                         </td>
+                        <td rowspan="4">
+                            Help by Mentors and Doubt CLearing
+                        </td>
                     </tr>
                    
                     <tr>
@@ -167,6 +170,9 @@
                     <tr>
                         <td>
                         
+                        </td>
+                        <td rowspan="25" class="empty">
+                            
                         </td>
                     </tr>
                     <tr>
