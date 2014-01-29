@@ -28,7 +28,7 @@
  <section class="content">
         <article>
             <h1>Schedule</h1>
-            <p align="center">The schedule starts from 18th January 2014!</p>
+            <p align="center">The schedule starts from 1st Feb 2014!</p>
             <table>
                 <thead>
                     <tr>
@@ -40,26 +40,13 @@
                 <tbody>
                     <tr>
                         <td>
-                            11am
-                        </td>
-                        <td rowspan="2" class="boring">
-                            Doors Open; Registration
-                        </td>
-                        <td rowspan="6" class="empty">
-                                
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
                             Noon
                         </td>
                         <td rowspan="2">
-                                Kickoff & Lunch
+                                Kickoff
+                        </td>
+                        <td rowspan="4" class="empty">
+                            
                         </td>
                     </tr>
                     <tr>

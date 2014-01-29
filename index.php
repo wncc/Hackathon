@@ -29,7 +29,7 @@
                     <p><em>Btech and Mtech students</em> of <em>all experience levels:</em> come to Hackathon to hang out with friends, meet new people, make something cool, and <em>become a better programmer</em> in <em>24 hours</em>.</p>
                 </header>
                 <span class="attendcta">
-                    <p>Attend the Hackathon on 17th-18th Jan at NSL!</p>
+                    <p>Attend the Hackathon on 1st-2nd Feb at NSL!</p>
                 </span>
             </article>
 
@@ -98,7 +98,7 @@
                 </li>
                 <li>in association with</li>
                 <li>
-                    <a href="http://www.iitb.ac.in/" target="_blank">
+                    <a href="http://gdgmumbai.org/" target="_blank">
                         <img src="img/splunk.png" alt="IIT Bombay">
                     </a>
                 </li>
