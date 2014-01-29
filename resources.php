@@ -39,6 +39,7 @@
                    <li><a href="http://www.php.net" target="_blank">Official PHP Site</a></li>
                    <li><a href="https://developers.google.com/maps/" target="_blank">Google Map API</a></li>
                    <li><a href="http://developer.yahoo.com/yql" target="_blank">Generating Queries with Yahoo Query Language</a></li>
+                   <li><a href="http://programmers.stackexchange.com/" target="_blank">Stack Exchange</a></li>
                </ul>
            </p>
         </article>
