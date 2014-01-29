@@ -32,7 +32,7 @@
                     awesome. At the end, you'll present to judges.</p>
                 <img src="img/img1.jpg">
                 <p>Oh, and you'll have a lot of fun along the way. Hackathon is kind of like a party, version 2.0.</p>
-                <a href="https://www.facebook.com/events/193963637470230" target=_blank class="cta">Register Now</a>
+                <a href="https://www.facebook.com/events/602975466456851/" target=_blank class="cta">Register Now</a>
             </section>
             <section class="whatdo">
                 <h1>What can I do at Hackathon?</h1>
