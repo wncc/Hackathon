@@ -28,7 +28,7 @@
  <section class="content">
         <article>
             <h1>Prizes</h1>
-            <p>
+            <p style="text-align:center">
                 Prizes to three Best Hacks and Special Prizes to Best Freshie Hack
             </p>
             <h1>Some Resources</h1>
