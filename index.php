@@ -99,7 +99,7 @@
                 <li>in association with</li>
                 <li>
                     <a href="http://gdgmumbai.org/" target="_blank">
-                        <img src="img/splunk.png" alt="IIT Bombay">
+                        <img src="img/gdg_mumbai.jpg" alt="GDG Mumbai">
                     </a>
                 </li>
             </ul>
