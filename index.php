@@ -51,8 +51,8 @@
         </div></li>
         <li>
         <div class="text">
-            <blockquote>Seeing how crazy talented this group is [...] makes me really excited for what this generation is capable of!I'm jealous of the resources and opportunities available to them.
-            </blockquote>
+        <blockquote> Hackathons are best place to start working on cool ideas. The amount of learning involved in this 24 hours is unmatched.    
+        </blockquote>
         </div>
         <div class="person">
             <img src="img/sushant.jpg">
@@ -72,16 +72,14 @@
                             -webkit-box-shadow: 0 4px 0 #7e4435;
                             box-shadow: 0 4px 0 #7e4435;">
                     <a href="#/">
-                    <span class="name" style="color: #fff">NSL -Jan 18<sup>th</sup>
-                    </span>
-                    <span class="cta" style="color: #fff">Learn More
+                    <span class="name" style="color: #fff">NSL -Feb 1st-2nd
                     </span>
                     </a>
                 </li>   
             </li>
                                                                 
         <li class="notify">
-            <a href="#">
+            <a href="https://www.facebook.com/wncc.iitb">
                 <span class="cta">Notify me of more</span>
             </a>
         </li>
