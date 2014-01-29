@@ -40,26 +40,13 @@
                 <tbody>
                     <tr>
                         <td>
-                            Noon
-                        </td>
-                        <td rowspan="2">
-                                Kickoff
-                        </td>
-                        <td rowspan="4" class="empty">
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
                                 1pm
                         </td>
                         <td rowspan="1">
-                                Pitches
+                                Kickoff
+                        </td>
+                        <td rowspan="1">
+                                Intro to Git
                         </td>
                     </tr>
                     <tr>
@@ -67,18 +54,21 @@
                                 
                         </td>
                         <td rowspan="1">
-                                Form Teams
+                                Pitches & Form Teams
+                        </td>
+                        <td rowspan="1">
+                                Introduction to Web API's
                         </td>
                     </tr>
                     <tr>
                         <td>
                                 2pm
                         </td>
-                        <td rowspan="10" class="code">
+                        <td rowspan="6" class="code">
                                 Start Coding
                         </td>
-                        <td rowspan="2">
-                                Intro to Git
+                        <td rowspan=42 class="empty">
+                                
                         </td>
                     </tr>
                     <tr>
@@ -90,9 +80,6 @@
                         <td>
                                 3pm
                         </td>
-                        <td rowspan="2">
-                            Intro to Web API's
-                        </td>
                     </tr>
                     <tr>
                         <td>
@@ -103,9 +90,6 @@
                         <td>
                             4pm
                         </td>
-                        <td rowspan="2">
-                                Splunk: Make things people love using data!
-                            </td>
                     </tr>
                     <tr>
                         <td>
@@ -116,13 +100,16 @@
                         <td>
                                 5pm
                         </td>
-                        <td rowspan="36" class="empty">
-                                
+                        <td rowspan="1">
+                            Evening Snacks
                         </td>
                     </tr>
                     <tr>
                         <td>
                                 
+                        </td>
+                        <td rowspan="5" font-color="black">
+                        Code
                         </td>
                     </tr>
                     <tr>
@@ -135,9 +122,19 @@
                             
                         </td>
                     </tr>
-                    <tr>
+                     <tr>
                         <td>
                             7pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            8pm
                         </td>
                         <td rowspan="1">
                             Dinner
@@ -147,20 +144,11 @@
                         <td>
                                 
                         </td>
-                        <td rowspan="9" class="code">
+                        <td rowspan="7" class="code">
                             Code
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            8pm
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                
-                        </td>
-                    </tr>
+                   
                     <tr>
                         <td>
                             9pm
